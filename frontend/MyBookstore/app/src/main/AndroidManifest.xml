@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cse110.mybookstore" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="com.cse110.mybookstore.ParseApplication" >
+
+
+        <!-- android:theme="@style/AppTheme" -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bookstore" >
+        </activity>
+        <activity
+            android:name=".UpdateBookActivity"
+            android:label="@string/title_activity_add_book"
+            android:theme="@style/Theme.Bookstore" >
+        </activity>
+        <activity
+            android:name=".AddBook"
+            android:label="@string/title_activity_add_book"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cse110.mybookstore.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".SellBookInfo"
+            android:label=""
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cse110.mybookstore.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BuyBookInfo"
+            android:label=""
+            android:parentActivityName=".BuyingActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cse110.mybookstore.BuyingActivity" />
+        </activity>
+        <activity
+            android:name=".BuyingActivity"
+            android:label=""
+            android:theme="@style/Theme.Bookstore"
+            android:launchMode="singleTop" >
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserProfile"
+            android:label=""
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".UpdateUserProfile"
+            android:label="@string/title_activity_update_user_profile"
+            android:parentActivityName=".UserProfile"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cse110.mybookstore.UserProfile" />
+        </activity>
+    </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+</manifest>

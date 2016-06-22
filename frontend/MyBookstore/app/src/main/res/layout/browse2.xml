@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@drawable/custom_bg"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/thumbnail2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_placeholder"/>
+
+    <LinearLayout
+        android:id="@+id/book_info2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/thumbnail2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/author2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/format2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/book_price2"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@id/book_info2"
+        android:gravity="end"
+        android:maxLength="5"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryBackground"
+        />
+
+</RelativeLayout>

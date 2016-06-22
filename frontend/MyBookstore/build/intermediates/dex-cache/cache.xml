@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f607369e68cb756b3f8f523403e3d80433a68aa1">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/classes-41a041dd646b92a50de20943aec1215e36c61b07.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1-6557783e5e649412d6639c93e65f08677e5037cb.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="25a72389e79fbac13f78412a4a6ffacc1cdb0673">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/classes-d60bf8545c02bfb8b57664fe15dc61e3c540f4f9.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3-0b0b9e5ca73619206886d62c3d1700a85021f04d.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="83e81537012f1975aa902eedbdb8da5aa515aea5">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/classes-242ac62f408d6ee2fe7078bd420fd38aebdc78a3.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e4805433aedef15e73a7eedf7e3496eb4363a583">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/classes-6d882859377b67292955976b1d423a01d80c5b00.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1-e10de425772b9fd2a0b0c24a0ae9b17f5ff11b30.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3-514432e6893335470f7ecc5428aa51e9350db286.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12-571310ef1ad04e0a39f8bbcf9e1294534b3e25bb.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3-78414ad1b5973d909bb0e0d61be16921f0bc772c.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e1d90a3498ab7a4b68ea6e936e71cf7f4e95453f">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/classes-888549ae3151d69049cead5d37ed3da57c5707a7.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1-070006d4a8dab9d9cd78342bd9d090582f89f05f.jar" />
+    </item>
+    <item
+        jar="/Users/garythorn/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/garythorn/cse110/frontend/MyBookstore/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2-0110a0ff822f7bc6b97f7e9465e4d5a1cb86dd0c.jar" />
+    </item>
+
+</items>

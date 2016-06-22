@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_update_user_profile"
+    tools:context="com.cse110.mybookstore.UpdateUserProfile">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar"
+        />
+
+    <!--Profile Pics-->
+    <ImageView
+        android:id="@+id/editProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user_placeholder"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!--Bio Icon-->
+    <ImageView
+        android:id="@+id/bioIcon"
+        android:layout_below="@id/editProfileImage"
+        android:padding="9.5dp"
+        android:src="@mipmap/ic_insert_emoticon_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--Bio-->
+    <EditText
+        android:id="@+id/editProfileBio"
+        android:layout_toRightOf="@+id/bioIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/editProfileImage"
+        android:layout_marginRight="16dp"
+        android:hint="Bio"
+        />
+
+</RelativeLayout>

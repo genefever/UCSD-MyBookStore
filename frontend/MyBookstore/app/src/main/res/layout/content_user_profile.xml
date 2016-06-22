@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.cse110.mybookstore.UserProfile"
+        tools:showIn="@layout/activity_user_profile"
+        >
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/toolbar"
+            />
+
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_bar"
+            android:layout_marginBottom="21dp"
+            >
+
+            <!--Profile Pics-->
+            <ImageView
+                android:id="@+id/userImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/app_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_placeholder"
+                />
+
+            <!--Name-->
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingBottom="8dp"
+                android:paddingLeft="30dp"
+                android:text=""
+                android:textSize="27sp"
+                android:textColor="@color/backgroundColor"
+                />
+
+        </FrameLayout>
+
+        <!--Username-->
+        <TextView
+            android:id="@+id/userNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_layout"
+            android:layout_marginBottom="21dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Username"
+            android:textStyle="bold"
+            />
+
+        <!--Username Info-->
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/frame_layout"
+            android:layout_marginBottom="21dp"
+            android:layout_toRightOf="@+id/userNameTextView"
+            android:gravity="right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text=""
+            />
+
+        <!--Email-->
+        <TextView
+            android:id="@+id/userEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNameTextView"
+            android:layout_marginBottom="21dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Email"
+            android:textStyle="bold"
+            />
+
+        <!--Email Info-->
+        <TextView
+            android:id="@+id/userEmailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/userNameText"
+            android:layout_marginBottom="21dp"
+            android:layout_toRightOf="@+id/userEmailTextView"
+            android:gravity="right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text=""
+            />
+
+        <!--Bio-->
+        <TextView
+            android:id="@+id/userBioTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userEmailTextView"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Bio"
+            android:textStyle="bold"
+            />
+
+        <!--Bio Info-->
+        <TextView
+            android:id="@+id/userBioText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/userEmailText"
+            android:layout_marginBottom="21dp"
+            android:layout_toRightOf="@+id/userBioTextView"
+            android:gravity="right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text=""
+            />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_drawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_list"/>
+
+</android.support.v4.widget.DrawerLayout>

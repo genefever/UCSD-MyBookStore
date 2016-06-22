@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_buy_book_info"
+    tools:context="com.cse110.mybookstore.BuyBookInfo"
+    android:background="@color/colorPrimaryBackground"
+    android:gravity="top|center">
+
+    <include android:id="@id/app_bar" layout="@layout/toolbar"/>
+
+    <!--Image-->
+    <ImageView
+        android:id="@+id/imageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:src="@drawable/my_bookstore_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        />
+
+    <!--Title-->
+    <TextView
+        android:id="@+id/titleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@id/imageInfo"
+        android:textColor="@color/backgroundColor"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        />
+
+    <!--Author-->
+    <TextView
+        android:id="@+id/authorInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/titleInfo"
+        android:textColor="@color/backgroundColor"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <!--Show More-->
+    <TextView
+        android:id="@+id/showMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show More"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/authorInfo"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        />
+
+    <!--ISBN-->
+    <TextView
+        android:id="@+id/isbnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showMore"
+        android:layout_alignLeft="@+id/authorInfo"
+        android:layout_alignRight="@+id/authorInfo"
+        android:textColor="@color/backgroundColor"
+        android:layout_marginBottom="7dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        />
+
+    <!--Price-->
+    <TextView
+        android:id="@+id/priceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isbnInfo"
+        android:textColor="@color/backgroundColor"
+        android:layout_alignLeft="@+id/authorInfo"
+        android:layout_alignRight="@+id/authorInfo"
+        android:layout_marginBottom="7dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        />
+
+    <!--Format-->
+    <TextView
+        android:id="@+id/formatInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceInfo"
+        android:layout_alignLeft="@+id/isbnInfo"
+        android:layout_alignStart="@+id/isbnInfo"
+        android:layout_alignRight="@+id/priceInfo"
+        android:layout_alignEnd="@+id/priceInfo"
+        android:textColor="@color/backgroundColor"
+        android:layout_marginBottom="7dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        />
+
+    <!--Description-->
+    <TextView
+        android:id="@+id/descriptionInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/formatInfo"
+        android:layout_alignLeft="@+id/formatInfo"
+        android:layout_alignStart="@+id/formatInfo"
+        android:layout_alignRight="@+id/formatInfo"
+        android:layout_alignEnd="@+id/formatInfo"
+        android:textColor="@color/backgroundColor"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        />
+
+    <!--Email-->
+    <TextView
+        android:id="@+id/emailInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionInfo"
+        android:layout_alignLeft="@+id/descriptionInfo"
+        android:layout_alignStart="@+id/descriptionInfo"
+        android:layout_alignRight="@+id/descriptionInfo"
+        android:layout_alignEnd="@+id/descriptionInfo"
+        android:textColor="@color/backgroundColor"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
